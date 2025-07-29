@@ -1,0 +1,1 @@
+Ši aplikacija siunčia sutartį tėvams el. paštu iš Flask formos.
