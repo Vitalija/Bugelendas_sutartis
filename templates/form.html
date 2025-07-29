@@ -2,36 +2,33 @@
 <html lang="lt">
 <head>
     <meta charset="UTF-8">
-    <title>Stovyklos Bugelendas Sutartis</title>
+    <title>Bugelendas sutarties forma</title>
 </head>
 <body>
-    <h1>Vaiko registracijos forma</h1>
+    <h1>Vaiko dalyvavimo stovyklos „Bugelendas“ sutartis</h1>
     <form method="POST">
-        <label>1. Vaiko vardas: <input type="text" name="vaiko_vardas" required></label><br>
-        <label>2. Vaiko pavardė: <input type="text" name="vaiko_pavarde" required></label><br>
-        <label>3. Gimimo data: <input type="date" name="gimimo_data" required></label><br>
-        <label>4. Vaiko adresas: <input type="text" name="vaiko_adresas" required></label><br>
-        <label>5. Vaiko telefonas: <input type="text" name="vaiko_tel"></label><br>
-        <label>6. Tėvų vardas: <input type="text" name="tevu_vardas" required></label><br>
-        <label>7. Tėvų telefonas: <input type="text" name="tevu_tel" required></label><br>
-        <label>8. Tėvų el. paštas: <input type="email" name="email" required></label><br>
-        <label>9. Tėvų adresas: <input type="text" name="tevu_adresas" required></label><br>
-        <label>10. Stovyklos pamaina: <input type="text" name="stovyklos_data" required></label><br>
-        <label>11. Alergijos ar sveikatos problemos: <input type="text" name="vaiko_alergijos"></label><br><br>
+        <label>1. Vaiko vardas: <input name="vaiko_vardas" required></label><br>
+        <label>2. Vaiko pavardė: <input name="vaiko_pavarde" required></label><br>
+        <label>3. Gimimo data: <input name="gimimo_data" type="date" required></label><br>
+        <label>4. Vaiko adresas: <input name="vaiko_adresas" required></label><br>
+        <label>5. Vaiko telefonas: <input name="vaiko_tel" required></label><br>
+        <label>6. Tėvų vardas: <input name="tevu_vardas" required></label><br>
+        <label>7. Tėvų telefonas: <input name="tevu_tel" required></label><br>
+        <label>8. Tėvų el. paštas: <input name="email" type="email" required></label><br>
+        <label>9. Tėvų adresas: <input name="tevu_adresas" required></label><br>
+        <label>10. Stovyklos pamaina: <input name="stovyklos_data" required></label><br>
+        <label>11. Alergijos/sveikatos problemos: <input name="vaiko_alergijos"></label><br><br>
 
-        <div style="white-space: pre-wrap; border: 1px solid gray; padding: 10px;">
-Sutarties sąlygos:
-Tėvų, vaiko ir stovyklos rengėjo įsipareigojimai.
-
-Stovyklos kontaktai:
-Vaikų vasaros stovykla „Bugelendas“, Skuodo g. 88, Bugeniai, Mažeikių raj.
-Tel. 0-654-01662, el. p. info@bugelendas.lt
-Organizatorė: Vitalija Jermolavičienė
-
-Sutinku, kad mano vaikas dalyvaus stovykloje nurodytą datą, įsipareigojame laikytis visų taisyklių.
-Taip pat sutinku, kad paspaudus mygtuką „SUTINKU“ tai būtų laikoma rašytine sutartimi.
-Įsipareigoju 100 € sumokėti sutarties pasirašymo dieną, o likusius 190 € – likus 2 savaitėms iki stovyklos pradžios.
-        </div><br>
+        <p><strong>Sutarties sąlygos:</strong><br>
+        Tėvų, vaiko ir stovyklos rengėjo įsipareigojimai.<br>
+        <br>
+        <strong>Stovyklos kontaktai:</strong><br>
+        Vaikų vasaros stovykla „Bugelendas“, Skuodo g. 88, Bugeniai, Mažeikių raj.<br>
+        Tel. 0-654-01662, el. p. info@bugelendas.lt<br>
+        Organizatorė: Vitalija Jermolavičienė<br><br>
+        Sutinku, kad mano vaikas dalyvaus stovykloje nurodytą datą, įsipareigojame laikytis visų taisyklių.<br>
+        Taip pat sutinku, kad paspaudus mygtuką „SUTINKU“ tai būtų laikoma rašytine sutartimi.<br>
+        Įsipareigoju 100 € sumokėti sutarties pasirašymo dieną, o likusius 190 € – likus 2 savaitėms iki stovyklos pradžios.</p>
 
         <button type="submit">SUTINKU</button>
     </form>
