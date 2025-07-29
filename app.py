@@ -39,6 +39,8 @@ def form():
         data = request.form.to_dict()
         flash("Sutartis pateikta sėkmingai!", "success")
 
+        # vardas = data.get("vaiko_vardas", "vardas")
+        # pavarde = data.get("vaiko_pavarde", "pavarde")
         vardas = data.get("vaiko_vardas", "vardas")
         pavarde = data.get("vaiko_pavarde", "pavarde")
         failo_pavadinimas = f"{vardas}_{pavarde}.txt"
