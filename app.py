@@ -18,7 +18,9 @@ app.secret_key = 'slaptas_raktas_saugumui'
 def generate_pdf(data, failo_kelias):
     pdf = FPDF()
     pdf.add_page()
-    pdf.set_font("Helvetica", size=12)
+    # pdf.set_font("Helvetica", size=12)
+    pdf.add_font("DejaVu", "", "DejaVuSans.ttf", uni=True)
+    pdf.set_font("DejaVu", size=12)
     
     pdf.multi_cell(0, 10, f"""STOVYKLOS "BUGELENDAS" SUTARTIS
 
